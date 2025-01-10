@@ -3,16 +3,16 @@
 	"id": "tutorial-mod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "Noumans first mod trials",
+	"description": "Mod to add different items and blocks ",
 	"authors": [
-		"Nouman"
+		"Nouman!"
 	],
 	"contact": {
 		"homepage": "https://github.com/Nouman-wp",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Nouman-wp/First-Minecraft-mod-1.21.X"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorial-mod/icon.png",
+	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
