@@ -1,1 +1,2 @@
-SO if you wondering what this mod does , the answer is NOTHING ! Xd
+Added 2 Custom items 
+Added 1 Custom Block
