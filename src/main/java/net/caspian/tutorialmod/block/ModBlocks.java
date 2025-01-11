@@ -27,6 +27,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.WOOD)));
 
+    public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.WOOD)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -43,6 +47,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.BRONZE_BLOCK);
             entries.add(ModBlocks.RUBY_BLOCK);
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
         });
