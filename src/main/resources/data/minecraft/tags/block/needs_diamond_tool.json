@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:pink_garnet_deepslate_ore"
+    "tutorialmod:pink_garnet_deepslate_ore",
+    "tutorialmod:ruby_deepslate_ore"
   ]
 }
