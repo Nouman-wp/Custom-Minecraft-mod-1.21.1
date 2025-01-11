@@ -16,23 +16,23 @@ import javax.accessibility.AccessibleComponent;
 
 public class ModBlocks {
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
+            new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block RAW_PINK_GARNET_BLOCK = registerBlock("raw_pink_garnet_block",
-            new Block(AbstractBlock.Settings.create().strength(3f)
+            new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool()));
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(AbstractBlock.Settings.create().strength(3f)
+            new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.WOOD)));
 
     public static final Block BRONZE_BLOCK = registerBlock("bronze_block",
-            new Block(AbstractBlock.Settings.create().strength(3f)
+            new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.WOOD)));
 
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
+            new Block(AbstractBlock.Settings.create().strength(1f)
                     .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
 
 
