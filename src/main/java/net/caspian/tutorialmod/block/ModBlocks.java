@@ -31,6 +31,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.WOOD)));
 
+    public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -47,6 +51,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.PINK_GARNET_BLOCK);
+            entries.add(ModBlocks.PLATINUM_BLOCK);
             entries.add(ModBlocks.BRONZE_BLOCK);
             entries.add(ModBlocks.RUBY_BLOCK);
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
