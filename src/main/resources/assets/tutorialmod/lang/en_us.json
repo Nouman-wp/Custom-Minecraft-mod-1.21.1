@@ -9,6 +9,8 @@
   "block.tutorialmod.ruby_block": "Ruby Block",
   "block.tutorialmod.bronze_block": "Block of Bronze",
   "block.tutorialmod.platinum_block": "Platinum Block",
+  "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Mod Blocks",
   "itemgroup.tutorialmod.all_mod_items": "Mod Items"
