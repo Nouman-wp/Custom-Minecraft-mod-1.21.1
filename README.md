@@ -1,2 +1,28 @@
-Added 2 Custom items 
-Added 1 Custom Block
+*Items Added*
+
+-> Pink Garnet
+-> Raw Pink Garnet
+-> Ruby
+-> Classic Glock Pistol
+
+*Blocks Added*
+
+-> Pink Garnet Block
+-> Raw Pink Garnet Block
+-> Pink Garnet Ore
+-> Pink Garnet Deepslate Ore
+-> Ruby Block
+-> Ruby Ore
+-> Ruby Deepslate Ore 
+-> Bronze Block
+-> Platinum Block
+
+*Blasting/Smelting*
+
+-> Raw Pink Garnet ----> Pink Garnet
+
+*Crafting Recipe* 
+
+-> 1 Pink Garnet Block ----> 9 Pink Garnet & Vice-Versa
+-> 1 Ruby Block ----> 9 Ruby & Vice-Versa
+
