@@ -8,6 +8,8 @@
 
 ### -> Classic Glock Pistol
 
+### -> Magic Wand / Chisel
+
 *Blocks Added*
 
 ### -> Pink Garnet Block
