@@ -21,6 +21,7 @@
 ### -> Ruby Deepslate Ore 
 ### -> Bronze Block
 ### -> Platinum Block
+### -> Magic Block
 
 *Blasting/Smelting*
 
