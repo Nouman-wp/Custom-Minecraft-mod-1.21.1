@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.caspian.tutorialmod.block.ModBlocks;
 import net.caspian.tutorialmod.item.ModItems;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,5 +20,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.PETROL,900);
 	}
 }

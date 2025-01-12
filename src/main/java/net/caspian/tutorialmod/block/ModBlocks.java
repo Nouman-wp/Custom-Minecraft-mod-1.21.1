@@ -83,6 +83,7 @@ public class ModBlocks {
             entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
             entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
             entries.add(ModBlocks.RUBY_ORE);
+            entries.add(ModBlocks.MAGIC_BLOCK);
         });
     }
 }

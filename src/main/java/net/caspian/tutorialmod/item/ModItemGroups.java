@@ -40,6 +40,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CLASSIC_GLOCK);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModItems.BANANA);
+                        entries.add(ModItems.PETROL);
+
                     })
 
                     .build());

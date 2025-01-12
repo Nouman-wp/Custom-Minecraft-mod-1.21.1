@@ -18,6 +18,9 @@ public class ModItems {
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(64)));
 
+    public static final Item BANANA = registerItem("banana", new Item(new Item.Settings().food(ModFoodComponents.BANANA)));
+    public static final Item PETROL = registerItem("petrol", new Item(new Item.Settings()));
+
 
 
     private static Item registerItem(String name, Item item) {
