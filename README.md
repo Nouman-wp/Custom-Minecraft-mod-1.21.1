@@ -31,4 +31,5 @@
 
 ### -> 1 Pink Garnet Block ----> 9 Pink Garnet & Vice-Versa
 ### -> 1 Ruby Block ----> 9 Ruby & Vice-Versa
+### -> 1 Magic Block ----> 8 Ruby & 1 Pink Garnet
 
