@@ -10,6 +10,10 @@
 
 ### -> Magic Wand / Chisel
 
+### -> Banana 
+
+### -> Petrol 
+
 *Blocks Added*
 
 ### -> Pink Garnet Block
