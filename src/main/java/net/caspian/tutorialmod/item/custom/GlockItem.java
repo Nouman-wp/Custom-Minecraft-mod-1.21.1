@@ -31,7 +31,7 @@ public class GlockItem extends Item {
                 entity.kill();
             }
 
-            world.playSound(null, player.getBlockPos(), SoundEvents.BLOCK_ANVIL_FALL, SoundCategory.BLOCKS);
+            world.playSound(null, player.getBlockPos(), SoundEvents.BLOCK_GRINDSTONE_USE, SoundCategory.BLOCKS);
         }
 
         return ActionResult.SUCCESS;

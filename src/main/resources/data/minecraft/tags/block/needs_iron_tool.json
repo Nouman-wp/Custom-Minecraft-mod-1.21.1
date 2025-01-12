@@ -7,6 +7,7 @@
     "tutorialmod:ruby_block",
     "tutorialmod:bronze_block",
     "tutorialmod:platinum_block",
-    "tutorialmod:ruby_ore"
+    "tutorialmod:ruby_ore",
+    "tutorialmod:magic_ore"
   ]
 }

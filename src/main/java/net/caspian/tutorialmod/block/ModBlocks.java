@@ -1,5 +1,6 @@
 package net.caspian.tutorialmod.block;
 
+import net.caspian.tutorialmod.block.custom.MagicBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.caspian.tutorialmod.TutorialMod;
 import net.minecraft.block.AbstractBlock;
@@ -54,6 +55,9 @@ public class ModBlocks {
     public static final Block RUBY_DEEPSLATE_ORE = registerBlock("ruby_deepslate_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(3f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {
