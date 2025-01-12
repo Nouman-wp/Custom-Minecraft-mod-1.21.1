@@ -19,5 +19,10 @@
   "block.tutorialmod.magic_block": "Magic Block",
 
   "itemgroup.tutorialmod.pink_garnet_items": "Mod Blocks",
-  "itemgroup.tutorialmod.all_mod_items": "Mod Items"
+  "itemgroup.tutorialmod.all_mod_items": "Mod Items",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block Converts §3Pink Garnet§r into §eDiamond§r",
+  "tooltip.tutorialmod.chisel.shift_down": "This Magical Wand Converts Blocks Into A Random Different Block",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information",
+  "tooltip.tutorialmod.banana.tooltip": "Eating This Gives You Health Boost"
 }
