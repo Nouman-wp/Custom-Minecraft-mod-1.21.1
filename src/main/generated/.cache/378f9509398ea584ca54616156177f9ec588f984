@@ -1,0 +1,11 @@
+// 1.21	2025-01-15T00:35:09.8162737	Tutorial Mod/Block Loot Tables
+5c74804409f4deef7184f4f0cb274de49e9d8dc3 data\tutorialmod\loot_table\blocks\platinum_block.json
+40428c3a89811b20e60b0ffb069f7373fa8e0b20 data\tutorialmod\loot_table\blocks\bronze_block.json
+cbb358d78cd57da58c907a35212d486fa6f68efa data\tutorialmod\loot_table\blocks\magic_block.json
+c524d99e89d1a6b91131c503e69d1343642df802 data\tutorialmod\loot_table\blocks\raw_pink_garnet_block.json
+62dbda0e9bbe99313420d9da0d0bb50f00406ee1 data\tutorialmod\loot_table\blocks\ruby_ore.json
+e10b58ff9a7f9df85b67b7807d5ae423e7a759f8 data\tutorialmod\loot_table\blocks\ruby_block.json
+a8a175045f0d3d679e9afac5111d25b6d0b78ab7 data\tutorialmod\loot_table\blocks\pink_garnet_deepslate_ore.json
+81e1cfbc4d86d3fd0189a0c8ea6ecf867f65d766 data\tutorialmod\loot_table\blocks\pink_garnet_ore.json
+20c1b94f16da89972e44952293dc87c35d46d12c data\tutorialmod\loot_table\blocks\pink_garnet_block.json
+4edb7b8e839c4b9cf2c61b3ee831be36170fb205 data\tutorialmod\loot_table\blocks\ruby_deepslate_ore.json

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "tutorialmod:ruby"
+    },
+    "T": {
+      "item": "tutorialmod:pink_garnet"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RTR",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:magic_block"
+  }
+}
