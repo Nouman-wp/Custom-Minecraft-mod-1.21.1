@@ -1,5 +1,7 @@
 package net.caspian.tutorialmod.datagen;
 
+
+
 import net.caspian.tutorialmod.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;

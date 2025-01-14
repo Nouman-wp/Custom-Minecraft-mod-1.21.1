@@ -47,6 +47,7 @@ public class ModItems {
             entries.add(CLASSIC_GLOCK);
             entries.add(RAW_PINK_GARNET);
             entries.add(RUBY);
+            entries.add(BANANA);
 
         });
     }

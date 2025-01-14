@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorial-mod",
+	"id": "tutorialmod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
 	"description": "Mod to add different items and blocks ",
