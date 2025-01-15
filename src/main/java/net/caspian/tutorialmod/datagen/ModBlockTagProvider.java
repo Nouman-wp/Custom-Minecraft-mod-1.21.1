@@ -27,7 +27,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
                 .add(ModBlocks.PINK_GARNET_ORE)
                 .add(ModBlocks.RUBY_ORE)
-                .add(ModBlocks.RUBY_DEEPSLATE_ORE);
+                .add(ModBlocks.RUBY_DEEPSLATE_ORE)
+//                NON-BLOCK BLOCKS
+                .add(ModBlocks.PINK_GARNET_STAIRS)
+                .add(ModBlocks.PINK_GARNET_DOOR)
+                .add(ModBlocks.PINK_GARNET_TRAPDOOR)
+                .add(ModBlocks.PINK_GARNET_SLAB)
+                .add(ModBlocks.PINK_GARNET_BUTTON)
+                .add(ModBlocks.PINK_GARNET_PRESSURE_PLATE)
+                .add(ModBlocks.PINK_GARNET_FENCE)
+                .add(ModBlocks.PINK_GARNET_FENCE_GATE)
+                .add(ModBlocks.PINK_GARNET_WALL);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.PINK_GARNET_BLOCK)
