@@ -27,6 +27,18 @@
 ### -> Platinum Block
 ### -> Magic Block
 
+*Non-Block Blocks Added*
+
+### -> Pink Garnet Stairs
+### -> Pink Garnet Slab
+### -> Pink Garnet Button
+### -> Pink Garnet Pressure Plate
+### -> Pink Garnet Fence
+### -> Pink Garnet Fence Gate
+### -> Pink Garnet Wall
+### -> Pink Garnet Door
+### -> Pink Garnet Trapdoor
+
 *Blasting/Smelting*
 
 ### -> Raw Pink Garnet ----> Pink Garnet
