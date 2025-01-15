@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "P": {
+      "item": "tutorialmod:pink_garnet_block"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "PWP",
+    "PWP"
+  ],
+  "result": {
+    "count": 3,
+    "id": "tutorialmod:pink_garnet_fence"
+  }
+}

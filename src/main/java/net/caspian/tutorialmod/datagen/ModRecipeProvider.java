@@ -9,6 +9,7 @@ import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
@@ -73,6 +74,78 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.MAGIC_BLOCK)
                 .criterion(hasItem(ModBlocks.MAGIC_BLOCK), conditionsFromItem(ModBlocks.MAGIC_BLOCK))
                 .offerTo(exporter, Identifier.of(TutorialMod.MOD_ID, "raw_pink_garnet_from_magic_block"));
+
+        // Door recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_DOOR, 3)
+                .pattern("PP")
+                .pattern("PP")
+                .pattern("PP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Stairs recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_STAIRS, 4)
+                .pattern("P  ")
+                .pattern("PP ")
+                .pattern("PPP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Slab recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_SLAB, 6)
+                .pattern("PPP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Trapdoor recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_TRAPDOOR, 2)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Button recipe
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_BUTTON)
+                .input(ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Pressure plate recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_PRESSURE_PLATE)
+                .pattern("PP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Fence recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_FENCE, 3)
+                .pattern("PWP")
+                .pattern("PWP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .input('W', Items.STICK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Fence gate recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_FENCE_GATE)
+                .pattern("WPW")
+                .pattern("WPW")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .input('W', Items.STICK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
+
+        // Wall recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_WALL, 6)
+                .pattern("PPP")
+                .pattern("PPP")
+                .input('P', ModBlocks.PINK_GARNET_BLOCK)
+                .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
+                .offerTo(exporter);
 
 
     }
