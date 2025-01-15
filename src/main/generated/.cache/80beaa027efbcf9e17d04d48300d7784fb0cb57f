@@ -1,7 +1,7 @@
-// 1.21	2025-01-15T23:16:15.8881892	Tutorial Mod/Tags for minecraft:block
+// 1.21	2025-01-15T23:29:17.0251777	Tutorial Mod/Tags for minecraft:block
 6e20b69a9d2f5656b1009614747a8e826f937071 data\minecraft\tags\block\walls.json
 6e2643991cd54559d38727aba46df9d19df6977d data\minecraft\tags\block\needs_iron_tool.json
-cd09c94912a6b2f835990bc21f1a6baf0ee81f74 data\minecraft\tags\block\mineable\pickaxe.json
+6227cbbd60eb2908b319d35020c450a1294ded6c data\minecraft\tags\block\mineable\pickaxe.json
 8159fdbcb7619cbd57674525489b6dfed8a407fd data\minecraft\tags\block\fence_gates.json
 f30a6367dbc22bbef01d6bf2a992f645005f83b5 data\minecraft\tags\block\needs_diamond_tool.json
 87c23b954c6a1061edf28d30d87d40ccfecb8a8f data\minecraft\tags\block\fences.json
