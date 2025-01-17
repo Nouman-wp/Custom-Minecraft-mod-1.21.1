@@ -33,6 +33,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PLATINUM_BLOCK);
         addDrop(ModBlocks.RUBY_ORE);
         addDrop(ModBlocks.RUBY_DEEPSLATE_ORE);
+        addDrop(ModBlocks.PINK_GARNET_LAMP);
         addDrop(ModBlocks.RUBY_BLOCK);
 
         addDrop(ModBlocks.PINK_GARNET_STAIRS);

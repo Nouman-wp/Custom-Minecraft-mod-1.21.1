@@ -28,6 +28,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_ORE)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE)
+                .add(ModBlocks.PINK_GARNET_LAMP)
 //                NON-BLOCK BLOCKS
                 .add(ModBlocks.PINK_GARNET_STAIRS)
                 .add(ModBlocks.PINK_GARNET_DOOR)
@@ -49,7 +50,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE)
                 .add(ModBlocks.PINK_GARNET_ORE)
                 .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.PINK_GARNET_LAMP)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK);

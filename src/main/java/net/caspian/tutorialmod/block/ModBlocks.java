@@ -90,7 +90,7 @@ public class ModBlocks {
 
     public static final Block PINK_GARNET_LAMP  = registerBlock("pink_garnet_lamp",
             new PinkGarnetLampBlock(AbstractBlock.Settings.create()
-                    .strength(1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 20 : 0)));
+                    .strength(1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 15 : 0)));
 
 
     private static Block registerBlock(String name, Block block) {

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "P": {
+      "item": "tutorialmod:pink_garnet"
+    },
+    "R": {
+      "item": "minecraft:torch"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PRP",
+    "PPP"
+  ],
+  "result": {
+    "count": 4,
+    "id": "tutorialmod:pink_garnet_lamp"
+  }
+}

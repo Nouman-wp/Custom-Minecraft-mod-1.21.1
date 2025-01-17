@@ -147,6 +147,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.PINK_GARNET_BLOCK), conditionsFromItem(ModBlocks.PINK_GARNET_BLOCK))
                 .offerTo(exporter);
 
+        // Pink Garnet Lamp recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_GARNET_LAMP, 4)
+                .pattern("PPP")
+                .pattern("PRP")
+                .pattern("PPP")
+                .input('P', ModItems.PINK_GARNET)
+                .input('R', Items.TORCH)
+                .criterion(hasItem(ModItems.PINK_GARNET), conditionsFromItem(ModItems.PINK_GARNET))
+                .offerTo(exporter);
+
 
     }
 }
