@@ -1,6 +1,7 @@
 package net.caspian.tutorialmod.block;
 
 import net.caspian.tutorialmod.block.custom.MagicBlock;
+import net.caspian.tutorialmod.block.custom.PinkGarnetLampBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.caspian.tutorialmod.TutorialMod;
 import net.minecraft.block.*;
@@ -86,6 +87,10 @@ public class ModBlocks {
 
     public static final Block PINK_GARNET_TRAPDOOR = registerBlock("pink_garnet_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2f).requiresTool().nonOpaque()));
+
+    public static final Block PINK_GARNET_LAMP  = registerBlock("pink_garnet_lamp",
+            new PinkGarnetLampBlock(AbstractBlock.Settings.create()
+                    .strength(1f).requiresTool().luminance(state -> state.get(PinkGarnetLampBlock.CLICKED) ? 20 : 0)));
 
 
     private static Block registerBlock(String name, Block block) {
