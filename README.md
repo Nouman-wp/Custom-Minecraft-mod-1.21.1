@@ -38,6 +38,7 @@
 ### -> Pink Garnet Wall
 ### -> Pink Garnet Door
 ### -> Pink Garnet Trapdoor
+### -> Pink Garnet Lamp
 
 *Blasting/Smelting*
 
