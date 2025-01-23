@@ -27,6 +27,14 @@
 ### -> Platinum Block
 ### -> Magic Block
 
+*Tools Added*
+
+### -> Pink Garnet Sword
+### -> Pink Garnet Pickaxe
+### -> Pink Garnet Axe
+### -> Pink Garnet Shovel
+### -> Pink Garnet Hoe
+
 *Non-Block Blocks Added*
 
 ### -> Pink Garnet Stairs
