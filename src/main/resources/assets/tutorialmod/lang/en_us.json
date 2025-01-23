@@ -35,5 +35,11 @@
   "block.tutorialmod.pink_garnet_wall": "Pink Garnet Wall",
   "block.tutorialmod.pink_garnet_door": "Pink Garnet Door",
   "block.tutorialmod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
-  "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp"
+  "block.tutorialmod.pink_garnet_lamp": "Pink Garnet Lamp",
+
+  "item.tutorialmod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.tutorialmod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
+  "item.tutorialmod.pink_garnet_shovel": "Pink Garnet Shovel",
+  "item.tutorialmod.pink_garnet_axe": "Pink Garnet Axe",
+  "item.tutorialmod.pink_garnet_hoe": "Pink Garnet Hoe"
 }
