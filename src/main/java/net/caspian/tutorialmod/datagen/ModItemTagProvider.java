@@ -6,6 +6,7 @@ import net.caspian.tutorialmod.item.ModItems;
 import net.caspian.tutorialmod.util.ModTags;
 import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -23,5 +24,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.DIRT)
                 .add(Items.STONE)
                 .add(Items.COBBLESTONE);
+
+        getOrCreateTagBuilder(ItemTags.SWORDS)
+                .add(ModItems.PINK_GARNET_SWORD);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.PINK_GARNET_PICKAXE);
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.PINK_GARNET_SHOVEL);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.PINK_GARNET_AXE);
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.PINK_GARNET_HOE);
     }
 }
