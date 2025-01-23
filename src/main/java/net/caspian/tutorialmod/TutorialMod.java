@@ -1,5 +1,6 @@
 package net.caspian.tutorialmod;
 
+import net.caspian.tutorialmod.component.ModDataComponentTypes;
 import net.caspian.tutorialmod.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
@@ -18,6 +19,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.regiterItemGroups();
 
+		ModDataComponentTypes.registerDataComponentTypes();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
