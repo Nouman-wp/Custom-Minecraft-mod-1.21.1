@@ -1,6 +1,7 @@
 package net.caspian.tutorialmod.item.custom;
 
 import net.caspian.tutorialmod.block.ModBlocks;
+import net.caspian.tutorialmod.component.ModDataComponentTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -48,6 +49,8 @@ public class ChiselItem extends Item {
                         item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null, context.getBlockPos(), SoundEvents.BLOCK_BEACON_ACTIVATE, SoundCategory.BLOCKS);
+
+                context.getStack().set(ModDataComponentTypes.COORDINATES,context.getBlockPos());
             }
         }
 
@@ -60,6 +63,10 @@ public class ChiselItem extends Item {
             tooltip.add(Text.translatable("tooltip.tutorialmod.chisel.shift_down"));
         } else {
             tooltip.add(Text.translatable("tooltip.tutorialmod.chisel"));
+        }
+
+        if(stack.get(ModDataComponentTypes.COORDINATES) != null) {
+            tooltip.add(Text.literal("Last Block Changed at " + stack.get(ModDataComponentTypes.COORDINATES)));
         }
 
         super.appendTooltip(stack, context, tooltip, type);
