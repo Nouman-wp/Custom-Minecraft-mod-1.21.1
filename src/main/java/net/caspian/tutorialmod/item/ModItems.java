@@ -2,6 +2,7 @@ package net.caspian.tutorialmod.item;
 
 import net.caspian.tutorialmod.item.custom.ChiselItem;
 import net.caspian.tutorialmod.item.custom.GlockItem;
+import net.caspian.tutorialmod.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.caspian.tutorialmod.TutorialMod;
 import net.minecraft.item.*;
@@ -42,10 +43,14 @@ public class ModItems {
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 1.5f, -3.0f))));
     public static final Item PINK_GARNET_AXE = registerItem("pink_garnet_axe",
             new AxeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 9, -3.2f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 8, -3.2f))));
     public static final Item PINK_GARNET_HOE = registerItem("pink_garnet_hoe",
             new HoeItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 1, -3f))));
+
+    public static final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer",
+            new HammerItem(ModToolMaterials.PINK_GARNET, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.PINK_GARNET, 7, -2.8f))));
 
 
 
